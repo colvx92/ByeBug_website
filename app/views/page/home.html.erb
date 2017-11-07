@@ -1,23 +1,25 @@
-<h1>Home Page</h1>
-<!-- views/page/home.html.erb -->
+<div class="static-background">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Mobile Development</a>
+        <a class="nav-item nav-link" href="#">Voice Control</a>
+        <a class="nav-item nav-link disabled" href="#">Our products</a>
+      </div>
+    </div>
+  </nav>
 
-
-
-
-
-
-<header class="header" id="header">
-  <!--header-start-->
-  <div class="container">
-    <figure class="logo animated fadeInDown delay-07s">
-      <!-- <a href="#"><img src="/assets/byebug_logo.png" alt=""></a> -->
-      <%= image_tag 'byebug_logo.png', id: 'byebug'%>
-    </figure>
-    <h1 class="animated fadeInDown delay-07s">ByeBug Development</h1>
-    <ul class="we-create animated fadeInUp delay-1s">
-      <li>We are a digital agency that focuses on creating impactful content and experiences.</li>
-    </ul>
-    <a class="link animated fadeInUp delay-1s servicelink" href="mailto:info@byebugdev.com">Contact us!</a>
-  </div>
-</header>
-<!--header-end-->
+  <header class="header" id="header">
+    <!--header-start-->
+    <div class="container">
+        <a href="#"><img src="/assets/byebug_logo.png" alt=""></a>
+        <%#= image_tag 'byebug_logo.png', id: 'byebug'%>
+      <!-- </figure> -->
+      <h1>ByeBug Development</h1>
+      <ul>
+        <li>We are a digital agency that focuses on creating impactful content and experiences.</li>
+      </ul>
+      <a href="mailto:info@byebugdev.com">Contact us!</a>
+    </div>
+  </header>
+</div>
