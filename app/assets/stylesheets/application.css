@@ -13,4 +13,8 @@
  *= require_tree .
  *= require_self
  */
- 
+
+#mainnav{
+  min-height: 25vh;
+  background-color: lightblue;
+}

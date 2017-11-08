@@ -3,6 +3,115 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
 .page-body {
   background-color: black;
+  min-height: 4000px;
+}
+
+.header{
+  min-height: 25vh;
+  // background-color: lightblue;
+}
+
+
+
+// NUMBERS SECTION STYLING
+
+.numbers-section-title {
+    color:#129CF3;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 2rem;
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.numbers-under-heading {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#numbers{
+  background-color: lightgrey;
+}
+.section-wrapper {
+    margin-top: 60px;
+    text-align: center;
+}
+.numbers-section {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-image: url(../images/crossword.png);
+    background-attachment: fixed;
+
+}
+.numbers-section .num-data  i {
+    color: #129CF3;
+    padding-bottom: 20px;
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -o-transition: all .7s;
+}
+.numbers-section .num-data  i:hover {
+    color: #333;
+}
+.numbers-section .num-data .counter {
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 8px;
+}
+.numbers-section .num-data p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+// AFTER NUMBERS PAGE BREAK STYLING
+
+#after-numbers{
+  background-color: lightblue;
+  margin-top: 0;
+}
+.section-wrapper-break {
+    text-align: center;
+    paddin-top:2em;
+    padding-bottom: 2em;
+}
+
+#after-numbers-2{
+  background-color:lightgrey;
+}
+
+
+// last blue section
+.last-section{
+  padding: 40px 0;
+  background: #fff;
+}
+
+.last-section-padded{
+	padding: 140px 0 40px;
+}
+
+
+
+
+.blue-bg {
+	background: #00a8ff;
+}
+
+.white {
+	color: white;
+}
+
+.light {
+	font-weight: 300;
 }
